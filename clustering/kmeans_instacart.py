@@ -3,6 +3,7 @@ from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
+
 def kmeans_customer():
     """
     KMeans聚类，客户分类
