@@ -26,7 +26,7 @@ def logisitic_cancer():
     data.dropna(inplace=True)
 
     # 3、数据集划分
-    # 3.1 筛选特征值与目标值,特征：行全保留
+    # 3.1 筛选特征值与目标值,特征：行全保留,列从左边第一列（默认从0开始算）起，到右边第二列（负数表示从右边数起）
     x = data.iloc[:, 1:-1]
     y = data["Class"]
     # print(x.head(10))
