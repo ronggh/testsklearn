@@ -8,6 +8,7 @@ def dec_tree_titanic():
     决策树分析泰坦尼克号乘客生存预测
     :return: None
     """
+    pd.Series()
     # 1. 获取数据
     titanic = pd.read_csv("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt")
 
