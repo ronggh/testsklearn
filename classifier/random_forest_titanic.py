@@ -10,6 +10,7 @@ def random_forest_titanic():
     """
     # 1. 获取数据
     titanic = pd.read_csv("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt")
+    # titanic.to_csv("./titanic.csv")
 
     # 选取特征值、目标值
     x = titanic[["pclass","age","sex"]]

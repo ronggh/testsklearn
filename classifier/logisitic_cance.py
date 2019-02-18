@@ -19,7 +19,7 @@ def logisitic_cancer():
                     'Normal Nucleoli', 'Mitoses', 'Class']
     data = pd.read_csv(path, names=column_names)
     # print(data.head(10))
-
+    pd.qcut(data,)
     # 2、数据处理（缺失值处理）
     # ?替换为np.nan,删除缺失样本
     data = data.replace(to_replace='?', value=np.nan)
